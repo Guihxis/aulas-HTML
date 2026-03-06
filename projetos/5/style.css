@@ -1,0 +1,43 @@
+body{
+    font-family: Arial;
+    text-align: center;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+nav a{
+    margin: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: #62288a;
+    padding: 20px;
+    border-radius: 17px;
+    
+    
+
+   
+}
+
+a:hover{
+    background-color: #461d61;
+}
+main{
+    background-color: rgb(194, 194, 194);
+    padding: 80px;
+    margin: 30px;
+    border-radius: 10px;
+    
+}
+footer{
+     background-color: black;
+    color: white;
+    padding: 20px;
+    padding-top: 50px;
+}
+img{
+    border-radius: 60px;
+}
+
+

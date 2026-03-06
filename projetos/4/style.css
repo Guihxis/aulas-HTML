@@ -1,0 +1,102 @@
+a{
+    color: white;
+    background-color: #ff0000;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 10px;
+    /*a { }
+
+Isso significa
+Aplique essas regras para todos os links da página.
+
+color: white;
+Define a cor do texto.
+
+background-color: #ff0000;
+Define a cor de fundo do link.
+
+text-decoration: none;
+Remove o sublinhado padrão dos links.
+
+padding: 10px 15px;
+Cria espaço interno dentro do link.
+Isso faz o link parecer um botão.
+Significa:
+10px em cima e embaixo
+15px nos lados
+
+border-radius: 8px;
+Arredonda as bordas.
+
+margin: 10px;
+Cria espaço fora do botão.
+Serve para separar os links:
+
+*/
+}
+a:hover{
+    background-color: #cc0000;
+
+    /*a:hover
+:hover significa:
+ quando o mouse passa em cima*/
+
+
+
+/*| Código             | O que faz                   |
+| ------------------ | --------------------------- |
+| `color`            | cor do texto                |
+| `background-color` | cor de fundo                |
+| `text-decoration`  | remove sublinhado           |
+| `padding`          | espaço dentro               |
+| `margin`           | espaço fora                 |
+| `border-radius`    | borda arredondada           |
+| `:hover`           | efeito quando passa o mouse |*/
+
+
+
+
+
+}
+body{
+
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    text-align: center;
+
+    /*O que isso faz
+muda a fonte da página
+deixa o fundo cinza claro
+centraliza os textos */
+}
+div{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+    /*Isso vai:
+criar caixas brancas
+dar espaço entre as seções*/
+}
+img{
+    border-radius: 50%;
+}
+h1{
+    color: #333;
+
+}
+
+h2{
+    color: #444;
+}
+p{
+    text-align: justify;
+}
+footer{
+    margin-top: 30px;
+    padding: 10px;
+    color: #666;
+}
+
