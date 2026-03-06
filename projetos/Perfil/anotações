@@ -1,0 +1,99 @@
+/*a { }
+
+Isso significa
+Aplique essas regras para todos os links da página.
+
+color: white;
+Define a cor do texto.
+
+background-color: #ff0000;
+Define a cor de fundo do link.
+
+text-decoration: none;
+Remove o sublinhado padrão dos links.
+
+padding: 10px 15px;
+Cria espaço interno dentro do link.
+Isso faz o link parecer um botão.
+Significa:
+10px em cima e embaixo
+15px nos lados
+
+border-radius: 8px;
+Arredonda as bordas.
+
+margin: 10px;
+Cria espaço fora do botão.
+Serve para separar os links:
+
+*/
+ /*a:hover
+:hover significa:
+ quando o mouse passa em cima*/
+
+
+
+/*| Código             | O que faz                   |
+| ------------------ | --------------------------- |
+| `color`            | cor do texto                |
+| `background-color` | cor de fundo                |
+| `text-decoration`  | remove sublinhado           |
+| `padding`          | espaço dentro               |
+| `margin`           | espaço fora                 |
+| `border-radius`    | borda arredondada           |
+| `:hover`           | efeito quando passa o mouse |*/
+
+
+
+/*A propriedade margin-top no CSS serve para criar espaço acima de um elemento na página.
+
+Em outras palavras: ela empurra o elemento para baixo, criando uma distância entre ele e o elemento que está acima.
+
+Exemplo simples
+
+HTML
+
+<p>Primeiro parágrafo</p>
+<p class="segundo">Segundo parágrafo</p>
+
+CSS
+
+.segundo {
+  margin-top: 30px;
+}
+O que acontece?
+
+O segundo parágrafo vai ficar 30 pixels mais distante do elemento que está acima dele.
+
+📊 Visualmente ficaria assim:
+
+Primeiro parágrafo
+        ↑
+     30px de espaço
+        ↓
+Segundo parágrafo
+Valores que você pode usar
+
+px → pixels
+
+% → porcentagem
+
+em / rem → relativo ao tamanho da fonte
+
+auto → valor automático (mais usado em margin horizontal)
+
+Exemplo:
+
+div {
+  margin-top: 50px;
+}
+Diferença entre margin e padding
+Propriedade	O que faz
+margin-top	espaço fora do elemento
+padding-top	espaço dentro do elemento
+ Dica para quem está aprendendo HTML e CSS:
+margin controla distância entre elementos, enquanto padding controla espaço dentro da caixa.
+Se quiser, também posso te mostrar:
+margin completo (top, right, bottom, left)
+um truque que quase todo iniciante erra no CSS
+como centralizar elementos usando margin.*/
